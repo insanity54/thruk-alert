@@ -1,0 +1,27 @@
+{
+  "name": "thruk-alert",
+  "version": "1.0.0",
+  "description": "Flashes your screen red when there are unacknowledged Crits in Thruk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insanity54/thruk-alert.git"
+  },
+  "keywords": [
+    "thruk"
+  ],
+  "author": "Chris Grimmett <chris@grimtech.net>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/insanity54/thruk-alert/issues"
+  },
+  "homepage": "https://github.com/insanity54/thruk-alert#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
